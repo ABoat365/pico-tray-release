@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "url": "https://gitee.com/muhe/pico-tray-release/releases/download/v1.0.0/PicoTray-1.0.0-setup.exe|https://github.com/ABoat365/pico-tray-release/releases/download/v1.0.0/PicoTray-1.0.0-setup.exe",
-  "sha256": "175c45e8f4d9c3d94582540cb51d4d0a6c4d9be17cc9c5f7d656edfce1b265ea",
-  "size": 2111320,
-  "notes": "首个公开版本：任务栏网速 / CPU / 内存、屏幕亮度调节、端口 → 进程查询。"
+  "sha256": "75f617394ff799becb5ec5ccd23ecc04399a68b8ba246d00df8d16fe56443ba6",
+  "size": 2111421,
+  "notes": "修订版：修复切换虚拟桌面后任务栏数据被压在任务栏下面看不见的问题。"
 }
