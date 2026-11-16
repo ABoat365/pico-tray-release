@@ -32,7 +32,7 @@ A tiny Windows taskbar monitor for network speed, CPU and memory — plus bright
 |---|---|
 | 系统 | Windows 10 1809+ / Windows 11，64 位 |
 | 体积 | exe 124 KB，安装包 2.0 MB |
-| 占用 | 私有提交 6.5 MB（任务管理器「内存」列显示 4.2 MB），空闲 CPU 约 0.1% |
+| 占用 | 私有提交 7.3 MB（任务管理器「内存」列显示 4.7 MB），空闲 CPU 约 0.1% |
 | 依赖 | 无（不依赖 VC 运行时 / MFC / .NET） |
 | 许可 | 闭源专有，免费使用，见 [LICENSE](LICENSE) |
 
@@ -91,7 +91,7 @@ Four numbers sitting to the left of the notification area, about 170–190 px wi
 |---|---|
 | OS | Windows 10 1809+ / Windows 11, x64 |
 | Size | 124 KB exe, 2.0 MB installer |
-| Footprint | 6.5 MB private commit (4.2 MB in Task Manager), ~0.1% idle CPU |
+| Footprint | 7.3 MB private commit (4.7 MB in Task Manager), ~0.1% idle CPU |
 | Dependencies | none (no VC runtime / MFC / .NET) |
 | License | proprietary, free to use — see [LICENSE](LICENSE) |
 
