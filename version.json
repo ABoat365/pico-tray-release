@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "url": "https://gitee.com/muhe/pico-tray-release/releases/download/v1.0.0/PicoTray-1.0.0-setup.exe|https://github.com/ABoat365/pico-tray-release/releases/download/v1.0.0/PicoTray-1.0.0-setup.exe",
-  "sha256": "1e08affc5a583e7855ebeb1adceaa2fcdc28f833e50f3f09d8e7474fdb7fbc23",
-  "size": 2112608,
-  "notes": "修订版：读数挂进任务栏，开始菜单/显示桌面/切桌面都不再被盖住；排版改为按冒号对齐。"
+  "sha256": "56fa4d60b15bd138707b9c883e7e166bc5b0ac6d226bdaf49bc04b0c6cf56d69",
+  "size": 2113142,
+  "notes": "修订版：读数挂进任务栏；按冒号对齐；修亮度面板跨屏归零、菜单污染底色。"
 }
