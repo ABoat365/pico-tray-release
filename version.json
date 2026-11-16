@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "url": "https://gitee.com/muhe/pico-tray-release/releases/download/v1.0.0/PicoTray-1.0.0-setup.exe|https://github.com/ABoat365/pico-tray-release/releases/download/v1.0.0/PicoTray-1.0.0-setup.exe",
-  "sha256": "75f617394ff799becb5ec5ccd23ecc04399a68b8ba246d00df8d16fe56443ba6",
-  "size": 2111421,
-  "notes": "修订版：修复切换虚拟桌面后任务栏数据被压在任务栏下面看不见的问题。"
+  "sha256": "0e1979e00d691b88c8bfc2c86a3018fbffda694a28a31b9a39d89f2b0affe534",
+  "size": 2111563,
+  "notes": "修订版：修复切换虚拟桌面、点「显示桌面」后任务栏数据被压在任务栏下面的问题。"
 }
