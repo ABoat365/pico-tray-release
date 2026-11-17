@@ -1,7 +1,7 @@
 {
-  "version": "1.0.1",
-  "url": "https://gitee.com/muhe/pico-tray-release/releases/download/v1.0.1/PicoTray-1.0.1-setup.exe|https://github.com/ABoat365/pico-tray-release/releases/download/v1.0.1/PicoTray-1.0.1-setup.exe",
-  "sha256": "e8c6324e8e5731d8395946c24d376e3a94597f47111ca893f7719ee924b24d86",
-  "size": 2119246,
-  "notes": "修复睡眠恢复后白字、解锁背景闪色、自动隐藏与全屏下的显示问题；竖向排版重做，新增读数位置设置。"
+  "version": "1.0.2",
+  "url": "https://gitee.com/muhe/pico-tray-release/releases/download/v1.0.2/PicoTray-1.0.2-setup.exe|https://github.com/ABoat365/pico-tray-release/releases/download/v1.0.2/PicoTray-1.0.2-setup.exe",
+  "sha256": "f9c56f7e3cdc7b937ccdfaa23be1c2fafdb1db21eeb808c819647b89b99cbc9a",
+  "size": 2120480,
+  "notes": "修复开机自启后读数整个跑到屏幕外面（Win11 任务栏托盘还没布局好时的一个空壳窗口导致的）。"
 }
