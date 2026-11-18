@@ -1,7 +1,7 @@
 {
-  "version": "1.0.3",
-  "url": "https://gitee.com/muhe/pico-tray-release/releases/download/v1.0.3/PicoTray-1.0.3-setup.exe|https://github.com/ABoat365/pico-tray-release/releases/download/v1.0.3/PicoTray-1.0.3-setup.exe",
-  "sha256": "bf539cf3ad6a18126307d726916fef4a19561059d5fd8672c8039d069a960bbf",
-  "size": 2121319,
-  "notes": "三个实际踩到的问题：开机自启后读数先压在托盘图标上、端口列表里结束进程后不刷新、亮度面板点「刷新」窗口冻住。"
+  "version": "1.0.4",
+  "url": "https://gitee.com/muhe/pico-tray-release/releases/download/v1.0.4/PicoTray-1.0.4-setup.exe|https://github.com/ABoat365/pico-tray-release/releases/download/v1.0.4/PicoTray-1.0.4-setup.exe",
+  "sha256": "89747ab7d875f1ea1669a2d700a2e40ec79fac38a5e204fc7b13ba5c9c0fc57b",
+  "size": 2121337,
+  "notes": "修复一个会让程序在电脑进入睡眠的瞬间无声退出的崩溃。"
 }
