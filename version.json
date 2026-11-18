@@ -1,7 +1,7 @@
 {
-  "version": "1.0.2",
-  "url": "https://gitee.com/muhe/pico-tray-release/releases/download/v1.0.2/PicoTray-1.0.2-setup.exe|https://github.com/ABoat365/pico-tray-release/releases/download/v1.0.2/PicoTray-1.0.2-setup.exe",
-  "sha256": "f9c56f7e3cdc7b937ccdfaa23be1c2fafdb1db21eeb808c819647b89b99cbc9a",
-  "size": 2120480,
-  "notes": "修复开机自启后读数整个跑到屏幕外面（Win11 任务栏托盘还没布局好时的一个空壳窗口导致的）。"
+  "version": "1.0.3",
+  "url": "https://gitee.com/muhe/pico-tray-release/releases/download/v1.0.3/PicoTray-1.0.3-setup.exe|https://github.com/ABoat365/pico-tray-release/releases/download/v1.0.3/PicoTray-1.0.3-setup.exe",
+  "sha256": "bf539cf3ad6a18126307d726916fef4a19561059d5fd8672c8039d069a960bbf",
+  "size": 2121319,
+  "notes": "三个实际踩到的问题：开机自启后读数先压在托盘图标上、端口列表里结束进程后不刷新、亮度面板点「刷新」窗口冻住。"
 }
