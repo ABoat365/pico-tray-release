@@ -2,7 +2,8 @@
 
 **[简体中文](#简体中文) · [English](#english)**
 
-[![release](https://img.shields.io/github/v/release/ABoat365/pico-tray-release?display_name=tag&style=flat-square)](https://github.com/ABoat365/pico-tray-release/releases/latest) [![GitHub downloads](https://img.shields.io/github/downloads/ABoat365/pico-tray-release/total?label=GitHub%20downloads&style=flat-square)](https://github.com/ABoat365/pico-tray-release/releases) [![latest release](https://img.shields.io/github/downloads/ABoat365/pico-tray-release/latest/total?label=latest%20release&style=flat-square)](https://github.com/ABoat365/pico-tray-release/releases/latest)
+[![release](https://img.shields.io/github/v/release/ABoat365/pico-tray-release?display_name=tag&style=flat-square)](https://github.com/ABoat365/pico-tray-release/releases/latest) [![GitHub downloads](https://img.shields.io/github/downloads/ABoat365/pico-tray-release/total?label=GitHub%20downloads&style=flat-square)](https://github.com/ABoat365/pico-tray-release/releases) [![latest release](https://img.shields.io/github/downloads/ABoat365/pico-tray-release/latest/total?label=latest%20release&style=flat-square)](https://github.com/ABoat365/pico-tray-release/releases/latest)  
+[![platform](https://img.shields.io/badge/platform-Windows%2010%201809%2B%20%7C%2011-0078D4?style=flat-square&logo=windows11&logoColor=white)](https://github.com/ABoat365/pico-tray-release/releases/latest) [![license](https://img.shields.io/badge/license-proprietary-lightgrey?style=flat-square)](LICENSE)
 
 Windows 任务栏上的网速 / CPU / 内存监视器，外加屏幕亮度调节和「端口 → 进程」速查。
 A tiny Windows taskbar monitor for network speed, CPU and memory — plus brightness control and a port-to-process lookup.
