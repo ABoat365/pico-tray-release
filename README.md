@@ -2,6 +2,8 @@
 
 **[简体中文](#简体中文) · [English](#english)**
 
+[![GitHub downloads](https://img.shields.io/github/downloads/ABoat365/pico-tray-release/total?label=GitHub%20downloads&style=flat-square)](https://github.com/ABoat365/pico-tray-release/releases)
+
 Windows 任务栏上的网速 / CPU / 内存监视器，外加屏幕亮度调节和「端口 → 进程」速查。
 A tiny Windows taskbar monitor for network speed, CPU and memory — plus brightness control and a port-to-process lookup.
 
