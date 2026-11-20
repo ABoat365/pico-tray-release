@@ -1,7 +1,7 @@
 {
-  "version": "1.2.0",
-  "url": "https://gitee.com/muhe/pico-tray-release/releases/download/v1.2.0/PicoTray-1.2.0-setup.exe|https://github.com/ABoat365/pico-tray-release/releases/download/v1.2.0/PicoTray-1.2.0-setup.exe",
-  "sha256": "eed52caf9a32dddd05c3f3d0f6628cbd85514d41d567b0b886ef34b6f22009cc",
-  "size": 2140735,
-  "notes": "「磁盘脱机 / 联机」换成「磁盘禁用 / 启用」：盘真正停转，也不再被后台程序唤醒。"
+  "version": "1.2.1",
+  "url": "https://gitee.com/muhe/pico-tray-release/releases/download/v1.2.1/PicoTray-1.2.1-setup.exe|https://github.com/ABoat365/pico-tray-release/releases/download/v1.2.1/PicoTray-1.2.1-setup.exe",
+  "sha256": "eb57053c63628964f9c42253bbb0989e136aad3dd08520ccee3ef82a8deb2a34",
+  "size": 2141585,
+  "notes": "卸载程序时，之前被禁用的磁盘会自动恢复，不会再留下一块\"消失的盘\"。"
 }
