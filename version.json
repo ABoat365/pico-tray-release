@@ -1,7 +1,7 @@
 {
-  "version": "1.0.4",
-  "url": "https://gitee.com/muhe/pico-tray-release/releases/download/v1.0.4/PicoTray-1.0.4-setup.exe|https://github.com/ABoat365/pico-tray-release/releases/download/v1.0.4/PicoTray-1.0.4-setup.exe",
-  "sha256": "89747ab7d875f1ea1669a2d700a2e40ec79fac38a5e204fc7b13ba5c9c0fc57b",
-  "size": 2121337,
-  "notes": "修复一个会让程序在电脑进入睡眠的瞬间无声退出的崩溃。"
+  "version": "1.1.0",
+  "url": "https://gitee.com/muhe/pico-tray-release/releases/download/v1.1.0/PicoTray-1.1.0-setup.exe|https://github.com/ABoat365/pico-tray-release/releases/download/v1.1.0/PicoTray-1.1.0-setup.exe",
+  "sha256": "0b6693b656d966dc05b9e84388d1b75ab32286a0193d6151315914b8de0f143d",
+  "size": 2133079,
+  "notes": "新增「磁盘脱机 / 联机」面板；修掉一批长时间运行才暴露的泄漏、越界与偶发无声退出。"
 }
