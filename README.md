@@ -5,8 +5,8 @@
 [![release](https://img.shields.io/github/v/release/ABoat365/pico-tray-release?display_name=tag&style=flat-square)](https://github.com/ABoat365/pico-tray-release/releases/latest) [![GitHub downloads](https://img.shields.io/github/downloads/ABoat365/pico-tray-release/total?label=GitHub%20downloads&style=flat-square)](https://github.com/ABoat365/pico-tray-release/releases) [![latest release](https://img.shields.io/github/downloads/ABoat365/pico-tray-release/latest/total?label=latest%20release&style=flat-square)](https://github.com/ABoat365/pico-tray-release/releases/latest)  
 [![platform](https://img.shields.io/badge/platform-Windows%2010%201809%2B%20%7C%2011-0078D4?style=flat-square&logo=windows11&logoColor=white)](https://github.com/ABoat365/pico-tray-release/releases/latest) [![license](https://img.shields.io/badge/license-proprietary-lightgrey?style=flat-square)](LICENSE)
 
-Windows 任务栏上的网速 / CPU / 内存监视器，外加屏幕亮度调节和「端口 → 进程」速查。
-A tiny Windows taskbar monitor for network speed, CPU and memory — plus brightness control and a port-to-process lookup.
+Windows 任务栏上的网速 / CPU / 内存监视器，外加屏幕亮度调节、「端口 → 进程」速查和「磁盘禁用 / 启用」开关。
+A tiny Windows taskbar monitor for network speed, CPU and memory — plus brightness control, a port-to-process lookup and a one-click disk disable / enable switch.
 
 > 本仓库**只放安装包和 `version.json`**，源码不公开。
 > This repository holds **only installers and `version.json`**; the source code is not public.
@@ -28,14 +28,18 @@ A tiny Windows taskbar monitor for network speed, CPU and memory — plus bright
 - **只统计一块网卡**：自动选（已连接网卡里流量最大的那块），也可手动指定
 - **屏幕亮度**：每块显示器一条滑杆，拖动即时生效；**笔记本内置屏也支持**
 - **端口 → 进程**：列出监听中的 TCP / UDP 端口及对应进程，可直接结束进程
+- **磁盘禁用 / 启用**：平时不用的机械盘一键禁用 —— 盘立刻停转，并从资源管理器、磁盘管理和
+  任务管理器里彻底消失，不再被后台程序唤醒；要用时一键启用，自己起转、盘符和分区都回来
+  （切换盘的状态要管理员权限，每次弹一次 UAC）
+- **左键单击可自选面板**：默认打开亮度，也可改成端口→进程或磁盘禁用/启用
 - **11 种语言**：简中 / 繁中 / English / 日本語 / 한국어 / Deutsch / Français / Español / Português / Русский / Italiano
 - 只有文字、没有背景块；深浅色自动切黑字 / 白字；支持副屏和竖向任务栏
 
 | | |
 |---|---|
 | 系统 | Windows 10 1809+ / Windows 11，64 位 |
-| 体积 | exe 124 KB，安装包 2.0 MB |
-| 占用 | 私有提交 7.3 MB（任务管理器「内存」列显示 4.7 MB），空闲 CPU 约 0.1% |
+| 体积 | exe 211 KB，安装包 2.0 MB |
+| 占用 | 私有提交 7.7 MB（任务管理器「内存」列显示 5.1 MB），空闲 CPU 约 0.1% |
 | 依赖 | 无（不依赖 VC 运行时 / MFC / .NET） |
 | 许可 | 闭源专有，免费使用，见 [LICENSE](LICENSE) |
 
@@ -88,13 +92,18 @@ Four numbers sitting to the left of the notification area, about 170–190 px wi
 - **Single adapter** only: auto-picks the busiest connected one, or pin a specific adapter
 - **Brightness**: one slider per monitor, applied live — **works on laptop internal panels too**
 - **Port → process**: lists listening TCP / UDP ports with their owning process, can kill it
+- **Disable / enable a disk**: put an idle mechanical drive to sleep with one click — it spins down
+  right away and disappears from Explorer, Disk Management and Task Manager, so nothing wakes it up
+  again; enabling spins it back up and restores its drive letters and partitions (each toggle asks
+  for administrator rights once)
+- **Pick what a left click opens**: brightness by default, or port → process, or the disk panel
 - **11 UI languages**, text only (no background block), auto black/white text, secondary monitors and vertical taskbars supported
 
 | | |
 |---|---|
 | OS | Windows 10 1809+ / Windows 11, x64 |
-| Size | 124 KB exe, 2.0 MB installer |
-| Footprint | 7.3 MB private commit (4.7 MB in Task Manager), ~0.1% idle CPU |
+| Size | 211 KB exe, 2.0 MB installer |
+| Footprint | 7.7 MB private commit (5.1 MB in Task Manager), ~0.1% idle CPU |
 | Dependencies | none (no VC runtime / MFC / .NET) |
 | License | proprietary, free to use — see [LICENSE](LICENSE) |
 
