@@ -1,7 +1,7 @@
 {
-  "version": "1.1.0",
-  "url": "https://gitee.com/muhe/pico-tray-release/releases/download/v1.1.0/PicoTray-1.1.0-setup.exe|https://github.com/ABoat365/pico-tray-release/releases/download/v1.1.0/PicoTray-1.1.0-setup.exe",
-  "sha256": "0b6693b656d966dc05b9e84388d1b75ab32286a0193d6151315914b8de0f143d",
-  "size": 2133079,
-  "notes": "新增「磁盘脱机 / 联机」面板；修掉一批长时间运行才暴露的泄漏、越界与偶发无声退出。"
+  "version": "1.2.0",
+  "url": "https://gitee.com/muhe/pico-tray-release/releases/download/v1.2.0/PicoTray-1.2.0-setup.exe|https://github.com/ABoat365/pico-tray-release/releases/download/v1.2.0/PicoTray-1.2.0-setup.exe",
+  "sha256": "eed52caf9a32dddd05c3f3d0f6628cbd85514d41d567b0b886ef34b6f22009cc",
+  "size": 2140735,
+  "notes": "「磁盘脱机 / 联机」换成「磁盘禁用 / 启用」：盘真正停转，也不再被后台程序唤醒。"
 }
