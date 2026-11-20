@@ -11,6 +11,9 @@ A tiny Windows taskbar monitor for network speed, CPU and memory — plus bright
 > 本仓库**只放安装包和 `version.json`**，源码不公开。
 > This repository holds **only installers and `version.json`**; the source code is not public.
 
+> 日本語 UI に対応しています。詳しくは [English](#english) をご覧ください。  
+> 한국어 UI를 지원합니다. 자세한 내용은 [English](#english)에서 확인하세요.
+
 ---
 
 ## 简体中文
