@@ -35,13 +35,15 @@ A tiny Windows taskbar monitor for network speed, CPU and memory — plus bright
   任务管理器里彻底消失，不再被后台程序唤醒；要用时一键启用，自己起转、盘符和分区都回来
   （切换盘的状态要管理员权限，每次弹一次 UAC；卸载本程序时会自动把禁用过的盘放回）
 - **左键单击可自选面板**：默认打开亮度，也可改成端口→进程或磁盘禁用/启用
-- **11 种语言**：简中 / 繁中 / English / 日本語 / 한국어 / Deutsch / Français / Español / Português / Русский / Italiano
+- **可隐藏托盘图标**：设置里勾上后通知区不再有图标；任务栏读数左键照样开面板、右键照样弹菜单
+- **19 种语言**：简中 / 繁中 / English / 日本語 / 한국어 / Deutsch / Français / Español / Português / Русский /
+  Italiano / हिन्दी / Bahasa Indonesia / Polski / Nederlands / Türkçe / বাংলা / ไทย / Tiếng Việt
 - 只有文字、没有背景块；深浅色自动切黑字 / 白字；支持副屏和竖向任务栏
 
 | | |
 |---|---|
 | 系统 | Windows 10 1809+ / Windows 11，64 位 |
-| 体积 | exe 211 KB，安装包 2.0 MB |
+| 体积 | exe 277 KB，安装包 2.1 MB |
 | 占用 | 私有提交 7.7 MB（任务管理器「内存」列显示 5.1 MB），空闲 CPU 约 0.1% |
 | 依赖 | 无（不依赖 VC 运行时 / MFC / .NET） |
 | 许可 | 闭源专有，免费使用，见 [LICENSE](LICENSE) |
@@ -63,12 +65,12 @@ A tiny Windows taskbar monitor for network speed, CPU and memory — plus bright
 
 ### 关于 version.json
 
-程序检查更新读的就是仓库根目录这个文件（Gitee 优先，8 秒不通换 GitHub）：
+程序检查更新读的就是仓库根目录这个文件（GitHub 优先，8 秒不通换 Gitee）：
 
 ```json
 {
   "version": "1.0.0",
-  "url": "https://gitee.com/…|https://github.com/…",
+  "url": "https://github.com/…|https://gitee.com/…",
   "sha256": "…64 位小写 hex…",
   "size": 2107675,
   "notes": "简短更新说明"
@@ -100,12 +102,16 @@ Four numbers sitting to the left of the notification area, about 170–190 px wi
   again; enabling spins it back up and restores its drive letters and partitions (each toggle asks
   for administrator rights once; uninstalling the app turns any disk it disabled back on)
 - **Pick what a left click opens**: brightness by default, or port → process, or the disk panel
-- **11 UI languages**, text only (no background block), auto black/white text, secondary monitors and vertical taskbars supported
+- **Optional tray icon**: hide the notification-area icon in Settings; the taskbar readout still
+  opens your panel on left click and the menu on right click
+- **19 UI languages**: Chinese (Simplified / Traditional), English, Japanese, Korean, German, French, Spanish,
+  Portuguese, Russian, Italian, Hindi, Indonesian, Polish, Dutch, Turkish, Bengali, Thai, Vietnamese
+- Text only (no background block), auto black/white text, secondary monitors and vertical taskbars supported
 
 | | |
 |---|---|
 | OS | Windows 10 1809+ / Windows 11, x64 |
-| Size | 211 KB exe, 2.0 MB installer |
+| Size | 277 KB exe, 2.1 MB installer |
 | Footprint | 7.7 MB private commit (5.1 MB in Task Manager), ~0.1% idle CPU |
 | Dependencies | none (no VC runtime / MFC / .NET) |
 | License | proprietary, free to use — see [LICENSE](LICENSE) |
@@ -129,12 +135,12 @@ startup. The update source (Auto / Gitee / GitHub) is selectable in Settings.
 
 ### version.json
 
-The updater reads this file from the repository root (Gitee first, GitHub as fallback after 8 s):
+The updater reads this file from the repository root (GitHub first, Gitee as fallback after 8 s):
 
 ```json
 {
   "version": "1.0.0",
-  "url": "https://gitee.com/…|https://github.com/…",
+  "url": "https://github.com/…|https://gitee.com/…",
   "sha256": "…64 lowercase hex chars…",
   "size": 2107675,
   "notes": "short release note"
